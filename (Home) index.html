@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Laxi 5 - Smart Word Finder</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+
+<!-- ================= NAVBAR ================= -->
+
+<nav class="navbar">
+  <div class="logo">
+  <div class="logo-icon">
+    <i class="fa-solid fa-book-open"></i>
+  </div>
+  <span>LAXI 5</span>
+</div>
+
+  <div class="nav-right">
+    <ul class="nav-links">
+      <li><a href="#" class="active">Home</a></li>
+      <li><a href="challenge.html">Challenge</a></li>
+      <li><a href="learn.html">Learn</a></li>
+      <li><a href="games.html">Games</a></li>
+      <li><a href="strategies.html">Strategies</a></li>
+      <li><a href="blog.html">Blog</a></li>
+      <li><a href="about.html">About</a></li>
+    </ul>
+
+    <button id="themeToggle">🌙</button>
+  </div>
+</nav>
+
+<!-- ================= HERO ================= -->
+<section class="hero">
+  <h1>Master <span>5-Letter Words</span></h1>
+  <p>
+    Improve your vocabulary, dominate word games,
+    and learn something new every day.
+  </p>
+
+  <div class="hero-search">
+  <div class="search-wrapper">
+    <select id="searchType" class="search-dropdown">
+      <option value="contains">Contains</option>
+      <option value="starts">Starts With</option>
+      <option value="ends">Ends With</option>
+    </select>
+    
+    <input type="text" id="searchInput" placeholder="Enter letters...">
+    
+    <button id="clearBtn" type="button">✕</button>
+  </div>
+
+  <p id="wordCount"></p>
+  <ul id="wordList"></ul>
+</div>
+
+  <p id="wordCount"></p>
+  <ul id="wordList"></ul>
+</div>
+</section>
+
+<!-- ================= STATS ================= -->
+<section class="stats">
+  <div class="stat-card">
+    <div class="stat-icon">📖</div>
+    <h3>Total Words</h3>
+    <p>10,000+</p>
+  </div>
+
+  <div class="stat-card">
+    <div class="stat-icon">📈</div>
+    <h3>Daily Players</h3>
+    <p>50,000+</p>
+  </div>
+
+  <div class="stat-card">
+    <div class="stat-icon">⚡</div>
+    <h3>Daily Challenges</h3>
+    <p>365</p>
+  </div>
+</section>
+
+<!-- ================= POPULAR WORDS ================= -->
+<section class="popular">
+  <div class="section-header">
+    <h2>⭐ Popular Words</h2>
+    <a href="#">View all →</a>
+  </div>
+
+  <div class="word-grid">
+    <div class="word-card">ABOUT <span>easy</span></div>
+    <div class="word-card">APPLE <span>easy</span></div>
+    <div class="word-card">AFTER <span>easy</span></div>
+    <div class="word-card">ALONE <span>easy</span></div>
+    <div class="word-card">APPLY <span>easy</span></div>
+    <div class="word-card">ALLOW <span>easy</span></div>
+    <div class="word-card">ANGRY <span>easy</span></div>
+    <div class="word-card">BEGIN <span>easy</span></div>
+  </div>
+</section>
+
+<!-- ================= CTA SECTION ================= -->
+<section class="cta">
+  <h2>Ready to Challenge Yourself?</h2>
+  <p>
+    Take on today’s daily challenge and compete
+    with thousands of players worldwide.
+  </p>
+  <button>Start Daily Challenge</button>
+</section>
+
+<!-- ================= FEATURED ================= -->
+<section class="featured">
+  <h2>Featured Resources</h2>
+
+  <div class="feature-grid">
+    <div class="feature-card">
+  <div class="feature-icon learning">
+    <i class="fa-solid fa-book-open"></i>
+  </div>
+  <h3>Learning Mode</h3>
+      <p>Master new words with flashcards, quizzes, and progress tracking.</p>
+    </div>
+
+    <div class="feature-card">
+      <div class="feature-icon">⚡</div>
+      <h3>Word Games</h3>
+      <p>Play fun and interactive games to improve your vocabulary.</p>
+    </div>
+
+    <div class="feature-card">
+      <div class="feature-icon">📊</div>
+      <h3>Strategy Guides</h3>
+      <p>Learn winning strategies for Wordle, Scrabble, and more.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer class="footer">
+  <div class="footer-container">
+
+    <!-- Column 1 -->
+    <div class="footer-col">
+      <div class="footer-logo">
+        <i class="fa-solid fa-book-open"></i>
+        <span>5 Letter Words</span>
+      </div>
+      <p>Find, learn and explore the best 5-letter words with powerful tools and smart features.</p>
+    </div>
+
+    <!-- Column 2 -->
+    <div class="footer-col">
+      <h4>Quick Links</h4>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="challenge.html">Challenge</a></li>
+        <li><a href="games.html">Games</a></li>
+        <li><a href="strategies.html">Strategies</a></li>
+      </ul>
+    </div>
+
+    <!-- Column 3 -->
+    <div class="footer-col">
+      <h4>Resources</h4>
+      <ul>
+        <li><a href="popular.html">Popular Words</a></li>
+        <li><a href="learn.html">Learning Mode</a></li>
+        <li><a href="wordlists.html">Word Lists</a></li>
+        <li><a href="blog.html">Blog</a></li>
+      </ul>
+    </div>
+
+    <!-- Column 4 -->
+    <div class="footer-col">
+      <h4>Newsletter</h4>
+      <p>Subscribe to get weekly word updates.</p>
+      <div class="newsletter">
+        <input type="email" placeholder="Enter your email">
+        <button>Subscribe</button>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+    © 2026 LAXI 5. All rights reserved.
+  </div>
+</footer>
+  <script src="words.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
